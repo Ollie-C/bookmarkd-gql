@@ -1,4 +1,4 @@
-#bookmark.d v3
+# bookmark.d v3
 
 This is an update to my previous project that allowed users to add a bookmark via a form, saving the data in localStorage and giving them the ability to edit, delete and filter their saved bookmarks.
 
