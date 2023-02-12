@@ -1,17 +1,16 @@
-import { createSchema, createYoga } from "graphql-yoga";
+//GraphQL server with GraphQL Yoga
+
+import { createYoga } from "graphql-yoga";
 import type { NextApiRequest, NextApiResponse } from "next";
 
-import { typeDefs } from "../../graphql/schema";
-import { resolvers } from "../../graphql/resolvers";
+//Replace resolvers and typedefs with Pothos graphql schema
+import { schema } from "../../graphql/schema";
 
 export default createYoga<{
   req: NextApiRequest;
   res: NextApiResponse;
 }>({
-  schema: createSchema({
-    typeDefs,
-    resolvers,
-  }),
+  schema,
   graphqlEndpoint: "/api/graphql",
 });
 

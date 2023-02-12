@@ -1,12 +1,8 @@
-export const typeDefs = `
-  type Bookmark {
-    id: ID
-    title: String
-    url: String
-    category: String
-    users: [String]
-  }
+//GraphQL Schema - API schema
+import { builder } from "./builder";
 
-  type Query {
-    bookmarks: [Bookmark]!
-  }`;
+//Import types
+import "./types/User";
+import "./types/Bookmark";
+
+export const schema = builder.toSchema();

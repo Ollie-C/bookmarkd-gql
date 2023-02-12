@@ -1,3 +1,5 @@
+//Primsa Client
+
 /* Instatiates prisma client one time for use across entire project */
 import { PrismaClient } from "@prisma/client";
 
