@@ -4,6 +4,8 @@ This is an update to my previous project that allowed users to add a bookmark vi
 
 This version uses a graphql api to fetch data from cloud storage and will eventually allow for client-side pagination, user authentication and authorisation and file storage. 
 
+Just an experiment working with end-to-end type safety. 
+
 ## Tech
 
 **TypeScript** - Language
