@@ -7,9 +7,15 @@ This version uses a graphql api to fetch data from cloud storage and will eventu
 ## Tech
 
 **TypeScript** - Language
+
 **Next.js** - Framework
+
 **PostgreSQL via Supabase** - DB
+
 **Prisma** - ORM for db access
+
 **GraphQL Yoga** - GraphQL server
-**Apollo Client ** - GraphQL client
+
+**Apollo Client** - GraphQL client
+
 **Pothos** - Generator for GraphQL schema 
